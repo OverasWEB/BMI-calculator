@@ -58,7 +58,7 @@ h1 {
     min-width: 200px;
     min-height: 10px;
     font-size: 25px;
-    background-color: gray;
+    background-color: whitesmoke;
     display: grid;
     grid-template-rows: 50% 50%;
 
