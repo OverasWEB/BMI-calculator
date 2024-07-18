@@ -1,0 +1,57 @@
+<!-- script html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- scrpt css -->
+    <link rel="stylesheet" href="main.css">
+    <!-- script javascript -->
+    <script src="script.js" defer></script>
+</head>
+
+<!-- isi -->
+
+<body>
+    <div class="container" id="myForm">
+        <h1>BMI Calculator</h1>
+
+        <!-- input -->
+        <label>
+            <input id="t-input" type="number" placeholder="Tingg badan (cm)">
+        </label>
+        <label>
+            <input id="b-input" type="number" placeholder="Berat badan (kg)">
+        </label>
+
+
+        <!-- tombol hitung -->
+        <button type="submit" onclick="Calculate()">Hitung BMI</button>
+
+        <!-- nilai bmi -->
+        <div class="bmi-value">
+            <h4>Nilai BMI: </h4>
+            <div id="bmi-output"></div>
+        </div>
+
+        <!-- status -->
+        <div class="status">
+            <h4>Status: </h4>
+            <div id="bmi-status"></div>
+        </div>
+
+
+        <div class="add">
+            catatan :
+            <div id="bmi-add"></div>
+        </div>
+
+        <!-- reset -->
+        <button type="button" onclick="resetForm()" value="Reset">Reset</button>
+    </div>
+
+</body>
+
+</html>

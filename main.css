@@ -1,0 +1,112 @@
+/* script css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* isi */
+.container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: 30vw;
+    grid-template-rows: repeat(3, 10vh) 5vh repeat(2, 10vh);
+    grid-gap: 10px;
+
+/* baground */
+}
+
+body {
+    background: rgb(0, 0, 0);
+}
+
+/* judul */
+h1 {
+    color: white;
+}
+
+/* tombol hitung */
+.submit-btn {
+    background-color: turquoise;
+}
+
+
+/* nilai bmi */
+.bmi-value {
+    min-width: 200px;
+    min-height: 40px;
+    background-color: rgb(233, 255, 89);
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+/* status kesehatan */
+.status {
+    min-width: 200px;
+    min-height: 80px;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+}
+
+/* tambahan & catatan */
+.add {
+    margin: 40px 0px;
+    font-size: 13px !important;
+    min-width: 200px;
+    min-height: 10px;
+    font-size: 25px;
+    background-color: gray;
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+}
+
+#bmi-add {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+
+
+.container>div {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 8px;
+}
+
+button,
+input {
+    border: none;
+    outline: none;
+    font-size: 25px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-rows: 50% 50
+}
+
+/* input */
+input {
+    min-width: 220px;
+    min-height: 60px;
+    background: #b4e5ff;
+    text-indent: 10px;
+    color: black;
+    outline: none;
+    font-size: 2vw;
+}
+
+
+/* tombol hasil */
+button {
+    min-width: 220px;
+    min-height: 30px;
+    background: aqua;
+    cursor: pointer;
+}
